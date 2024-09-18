@@ -9,4 +9,9 @@ public class Uczen extends Osoba{
     public Uczen(String imie, String nazwisko, int wiek) {
         super(imie, nazwisko, wiek);//wywyolujemy konstruktor klasy bazowej
     }
+
+    public Uczen(String imie, String nazwisko,int wiek, int nrEwidencyjny) {
+        super(imie,nazwisko, wiek);
+        this.nrEwidencyjny = nrEwidencyjny;
+    }
 }
