@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Osoba {
+public abstract class Osoba {
+    //klasa abstrakcyjna nie pozwala na utworzenie obiektow tej klasy
     //hermetyzacja
     //modyfikator dostepu private, protected
     //private widoczne tylko wewnatrz klasy

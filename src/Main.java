@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        /*
         Osoba osobaJas=new Osoba("Jas", "Kowalski", 12);
         System.out.println("Imie: "+osobaJas.getImie());
         osobaJas.setImie("Jan");
@@ -11,6 +11,7 @@ public class Main {
         System.out.println(osbaX.getWiek());
 
         System.out.println(osobaIsia);
+        */
         System.out.println("liczba utworzonych obiektow; "+Uczen.liczbaObiektow);
         Uczen uczenJas= new Uczen("jas","nowak",7, 237);
         System.out.println("liczba utworzonych obiektow; "+Uczen.liczbaObiektow);
