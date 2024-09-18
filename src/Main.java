@@ -11,5 +11,9 @@ public class Main {
         System.out.println(osbaX.getWiek());
 
         System.out.println(osobaIsia);
+
+        Uczen uczenEmil= new Uczen("Emil","Sledz",7, 27);
+        System.out.println(uczenEmil);
     }
+
 }
